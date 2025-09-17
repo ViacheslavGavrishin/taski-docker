@@ -1,9 +1,12 @@
+"""Docstring content"""
 from django.contrib import admin
 
 from .models import Task
 
 
 class TaskAdmin(admin.ModelAdmin):
+    """Docstring content"""
+
     list_display = ('title', 'description', 'completed')
 
 
